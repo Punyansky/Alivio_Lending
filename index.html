@@ -1,21 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="icon" href="./assets/favicon.png" type="image/png"/>
+    <title>Alivio</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="index.css">
-  <link rel="icon" href="./assets/favicon.png" type="image/png">
-  <title>Alivio</title>
-</head>
-
-<body>
-  hello!
-</body>
-
+  <body>
+    <header class="header" aria-label="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <img
+            src="./assets/svg/logo.svg"
+            alt="logo"
+            class="logo"
+            aria-label="logo"
+          />
+          <nav class="header__navigation" aria-label="navigation">
+            <ul class="nav__list" aria-label="navigation-list">
+              <li class="nav__list-item">
+                <a href="#" class="nav__list-link"> Why Alivio </a>
+              </li>
+              <li class="nav__list-item">
+                <a href="#" class="nav__list-link"> Solutions </a>
+              </li>
+              <li class="nav__list-item">
+                <a href="#" class="nav__list-link"> Community </a>
+              </li>
+              <li class="nav__list-item">
+                <a href="#" class="nav__list-link"> Pricing </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__signin-block">
+            <div class="header__signin-left">
+              <a class="header__signin-left-link" href="#"> Sign in </a>
+            </div>
+            <div class="header__signin-right">
+              <div class="button">
+                <a class="header__signin-right-link" href="#"> Start Trial </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
 </html>

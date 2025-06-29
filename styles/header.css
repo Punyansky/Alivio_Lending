@@ -1,0 +1,58 @@
+.header {
+  background-color: var(--color-white);
+}
+
+.header__wrapper {
+  font-size: 20px;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 24px;
+  width: 81px;
+  margin-right: 178px;
+}
+
+.header__navigation {
+  color: var(--color-black-text);
+  display: flex;
+  align-items: center;
+  gap: 72px;
+}
+
+.nav__list {
+
+  font-weight: 500;
+  display: flex;
+  gap: 72px;
+  align-items: center;
+  margin-right: 283px;
+}
+
+.header__signin-block {
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__signin-left {
+
+  margin-right: 25px;
+}
+
+.header__signin-left-link {
+  text-wrap: nowrap;
+}
+
+
+
+.header__signin-right-link {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  line-height: 1.25;
+}
