@@ -1,22 +1,19 @@
-.header {
-  background-color: var(--color-white);
 
-}
 
 .header__wrapper {
-  font-size: 20px;
+  max-width: 1400px;
   height: 85px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
 
 }
 
 .logo {
   height: 24px;
   width: 81px;
-  margin-right: 178px;
-  flex-shrink: 0;
+  margin-right: 10px;
+
 }
 
 .header__navigation {
@@ -29,13 +26,15 @@
 .nav__list {
   font-weight: 500;
   display: flex;
-  gap: 72px;
+  justify-content: space-between;
   align-items: center;
-  margin-right: 283px;
+  
+  gap: 72px;
 }
 
 .nav__list-link {
   white-space: nowrap;
+  font-size: 20px;
 }
 
 .header__signin-block {
@@ -50,6 +49,7 @@
   .nav__list-link {
     font-size: 16px;
   }
+
   .button {
     font-size: 16px;
     width: 150px;
@@ -65,7 +65,7 @@
 
   .logo {
 
-    margin-right: 50px;
+    margin-right: 30px;
 
   }
 
