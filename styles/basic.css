@@ -1,22 +1,35 @@
 body {
   font-family: "Lato", sans-serif;
   background-color: var(--color-white);
+  font-size: 16px;
   
 }
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+
+
 .container {
+  
   max-width: 1389px;
   padding: 0 10px;
   margin: 0 auto;
-  height: 100%;
+  
 }
+
 .wrapper {
   min-height: 100%;
   height: auto;
   width: 100%;
-  overflow: hidden;
+  
 }
+
 .button {
-  display: flex;
+  font-weight: 500;
+  font-size: 20px;
   align-items: center;
   background-color: var(--color-green);
   height: 51px;
@@ -25,4 +38,9 @@ body {
   border-radius: 4px;
 }
 
+.btn-signin {
+  background-color: transparent;
+  color: var(--color-black-text);
 
+}
+/* 992px  768px 576px 480px*/
