@@ -1,0 +1,48 @@
+.hero__section {
+  
+  background-image: url(../assets/webp/bg.webp);
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 890px;
+
+}
+.hero__section {
+  padding-top: 175px;
+  
+}
+
+.hero__content {
+  color: var(--color-black-text);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.hero__title {
+  font-size: 65px;
+  font-weight: 700;
+  max-width: 381px;
+  color: var(--color-green);
+}
+.hero__description {
+  font-size: 20px;
+  max-width: 420px;
+  font-weight: 400;
+  line-height: 1.52;
+  margin: 25px 0 50px;
+}
+.hero-btn {
+  width: 230px;
+  height: 65px;
+}
+
+/* 992px  768px 576px 480px*/
+
+
+@media (max-width: 768px) {
+  .hero__title {
+  font-size: 50px;
+  max-width: 250px;
+}
+}
