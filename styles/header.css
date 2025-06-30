@@ -50,6 +50,10 @@
   .nav__list-link {
     font-size: 16px;
   }
+  .button {
+    font-size: 16px;
+    width: 150px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -58,12 +62,14 @@
     display: none;
 
   }
+
   .logo {
-  
-  margin-right: 50px;
-  
-}
+
+    margin-right: 50px;
+
+  }
 
 
-  
+
+
 }
