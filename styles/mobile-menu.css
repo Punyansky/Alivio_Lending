@@ -3,7 +3,7 @@
   position: absolute;
   top: 35px;
   left: 20px;
-  
+
 }
 
 
@@ -22,18 +22,21 @@
 
 
 .mobile-nav {
+  background-color: var(--color-white);
+  /* visibility: hidden; */
   position: fixed;
   inset: 0;
   padding: 40px 10px 10px 10px;
-  background-color: var(--color-white);
   translate: -100% 0;
-  transition: translate .33s;
+  transition: all .33s;
+  z-index: 999;
 
 
 }
 
-.mobile-navigation__toggler:checked ~ .mobile-nav {
+.mobile-navigation__toggler:checked + .mobile-nav {
   translate: 0;
+  visibility: visible;
 }
 
 .mobile-nav__list {
