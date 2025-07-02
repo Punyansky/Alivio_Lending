@@ -1,0 +1,42 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: var(--color-white);
+  font-size: 16px;
+
+}
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+
+
+.container {
+
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 10px;
+
+
+}
+
+
+.button {
+  font-weight: 500;
+  font-size: 20px;
+  align-items: center;
+  background-color: var(--color-green);
+  height: 51px;
+  width: 183px;
+  color: var(--color-white);
+  border-radius: 4px;
+}
+
+.btn-signin {
+  background-color: transparent;
+  color: var(--color-black-text);
+
+}
+
+/* 992px  768px 576px 480px*/
