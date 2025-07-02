@@ -82,4 +82,17 @@
   .video__wrapper {
     justify-content: center;
   }
+
+  .video__title {
+
+    font-size: 30px;
+
+  }
+
+  .video__subtitle {
+
+    font-size: 16px;
+
+  }
+
 }

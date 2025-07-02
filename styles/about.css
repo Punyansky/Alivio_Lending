@@ -113,4 +113,23 @@
   .card__middle {
     bottom: 0;
   }
+
+  .about__titles-block-left-subtitle {
+    font-size: 20px;
+
+  }
+
+  .about__titles-block-left-title {
+    font-size: 35px;
+
+  }
+
+  .number-title {
+    font-size: 100px;
+  }
+
+  .text-title {
+    font-size: 16px;
+    text-wrap: none;
+  }
 }
